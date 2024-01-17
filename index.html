@@ -3,10 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script async src="hw_2.0.js"></script>
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+
+    <div class="slider-container">
+        <div class="slider">
+            <img src="./img/image1.jpg" alt="Image 1">
+            <img src="./img/image2.jpg" alt="Image 2">
+            <img src="./img/image3.jpg" alt="Image 3">
+            <!-- Добавьте дополнительные изображения по мере необходимости -->
+        </div>
+        
+        <button class="prev-button">Предыдущее изображение</button>
+        <button class="next-button">Следующее изображение</button>
+        
+        <div class="dots-container">
+            <!-- Навигационные точки будут добавлены динамически с помощью JavaScript -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
